@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        background-image: url(images/to-do-list-190702-800x450.jpg);
+    }
+    h1{
+        color: rgb(247, 125, 11);
+        text-shadow: 3px 3px 4px rgb(22, 21, 21);
+        margin-top: 60px;
+        padding: 40px;
+    }
+  todo{
+      width: 45px;
+      height: 45px;
+
+  }
+ 
+ 
+</style>
+<body>
+    <div>
+        <h1 > <img src="images/816IOi64gcL.png" width="50px" alt="">  TODO APPLICATION</h1>
+        <input  placeholder="Enter todo" type="text" id="todo-item">
+        <button onclick="addTodo()"><img src="images/folder-green-add-lite-computer-icon_f16RvT8O_thumb.jpg" width="20px" alt=""></button>
+        <button onclick="deleteAll()"><img src="images/19-512.webp" width="20px" alt=""></button>
+    </div>
+    <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
